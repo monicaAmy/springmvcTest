@@ -14,6 +14,9 @@ public class TestCotroller {
 
     @RequestMapping("/toLogin1")
     public String toLogin1(){
+        HttpUtil.doJsonPost("https://www.baidu.com","");
         return "login1";
     }
+
+
 }
