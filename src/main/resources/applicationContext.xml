@@ -37,7 +37,7 @@
     p:jobDetail-ref="cacheClearJob" p:cronExpression="*/10 * * * * ?"/>
 
   <!--启动定时器-->
-  <bean id="schedulerFactoryBean"
+  <!--<bean id="schedulerFactoryBean"
     class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
     <property name="applicationContextSchedulerContextKey" value="applicationContext"/>
     <property name="triggers">
@@ -46,6 +46,6 @@
         <ref bean="cacheClearJobTrigger"/>
       </list>
     </property>
-  </bean>
+  </bean>-->
 
 </beans>
