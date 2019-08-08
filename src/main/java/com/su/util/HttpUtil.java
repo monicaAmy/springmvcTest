@@ -1,4 +1,4 @@
-package com.su;
+package com.su.util;
 
 import java.io.BufferedReader;
 import java.io.IOException;

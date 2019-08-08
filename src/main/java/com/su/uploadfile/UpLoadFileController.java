@@ -17,7 +17,6 @@ public class UpLoadFileController
 {
 
   @RequestMapping("/upload")
-
   public @ResponseBody BIResp upload(@ModelAttribute BIFile biFile)
   {
     BIResp biResp = new BIResp();
